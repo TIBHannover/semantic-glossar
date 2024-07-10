@@ -1,6 +1,6 @@
 # Semantic Glossary Demo
 
-Run locall or in GitHub Codespace VM.
+Run locally or in GitHub Codespace VM.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TIBHannover/semantic-glosar/?quickstart=1)
 
