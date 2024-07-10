@@ -1,5 +1,7 @@
-# Preface {.unnumbered}
+# About {.unnumbered}
 
-This is a Quarto book.
+This is a work in progress demonstration of a workflow for glossary authoring, linked open data storage, multi-format outputting, and use of glossaries for data analysis - for example searching open literature repositories.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+More information about the workflow development can be found [here](https://github.com/TIBHannover/semantic-glosar).
+
+A sample Climate Change Terms glossary has been used from the US Environmental Protection Agency,  @epa_climate_2013.

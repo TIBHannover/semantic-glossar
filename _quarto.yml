@@ -5,23 +5,33 @@ project:
 book:
   title: "Semantic Glossary Demo"
   author: "Team OSL"
-  date: "7/10/2024"
+  date: "2024-07-10"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
     - resources/cct.qmd
     - references.qmd
+    - copy-lic.qmd
+  repo-url: https://github.com/TIBHannover/semantic-glosar
+  repo-actions: [edit]
+  downloads: [pdf,docx,epub]
+  cover-image: cover/cover.png 
+
+comments:
+  hypothesis: true
 
 bibliography: references.bib
 
 format:
   html:
+    number-sections: false
     theme: cosmo
   pdf:
-    documentclass: scrreprt
+    number-sections: false
+    toc-depth: 1
+    documentclass: book
+  docx: 
+    toc: true
   epub:
-    cover-image: cover/cover.png  
-
+    toc: true 
 
 
