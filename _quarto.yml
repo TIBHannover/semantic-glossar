@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "semantic-glosar-2"
-  author: "Norah Jones"
+  title: "Semantic Glossary Demo"
+  author: "Team OSL"
   date: "7/10/2024"
   chapters:
     - index.qmd
@@ -18,6 +19,8 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+  epub:
+    cover-image: cover/cover.png  
 
 
 
