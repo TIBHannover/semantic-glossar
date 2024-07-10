@@ -1,2 +1,3 @@
-# semantic-glosar
-Semantic Glossary Demo
+# Semantic Glossary Demo
+
+
