@@ -1,5 +1,9 @@
 # Semantic Glossary Demo
 
+Run locall or in GitHub Codespace VM.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TIBHannover/semantic-glosar/?quickstart=1)
+
 ## Resources
 
 Climate change terms - EPA: [As Paged Media](https://vivliostyle.org/viewer/#src=https://raw.githubusercontent.com/TIBHannover/semantic-glosar/main/resources/Climate%20Change%20Terms.html)
