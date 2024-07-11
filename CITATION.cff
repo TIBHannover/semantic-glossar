@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Worthington"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0000-0002-8579-9717"
+- family-names: "Bowie"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0000-0002-2437-589X"
+title: "Computational Publishing Service Demo"
+version: 0.0.1a
+identifiers:
+  - type: doi
+    value: 
+date-released: 2024-03-22
+url: "https://github.com/NFDI4Culture/CPS-Demo"

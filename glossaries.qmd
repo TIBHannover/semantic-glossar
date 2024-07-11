@@ -1,0 +1,19 @@
+# Glossaries (used in the demo)
+
+## Co-Site (demo) - Submission form
+
+## IPCC Glossary (work in progress)
+
+## Climate Change Terms: EPA
+
+Name: Glossary of Climate Change Terms
+
+Description: Glossary of terms used on EPA's climate change site.
+
+Publishing Organization: Office of Air and Radiation/Office of Atmospheric Protection/Climate Change Division
+
+Last Update: September 9, 2013
+
+Program Site: [https://www.epa.gov/climate-research](https://www.epa.gov/climate-research)
+
+Terminology Service: [Link](https://sor.epa.gov/sor_internet/registry/termreg/searchandretrieve/glossariesandkeywordlists/search.do?details=&vocabName=Glossary%20Climate%20Change%20Terms)

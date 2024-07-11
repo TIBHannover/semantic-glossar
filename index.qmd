@@ -5,3 +5,5 @@ This is a work in progress demonstration of a workflow for glossary authoring, l
 More information about the workflow development can be found [here](https://github.com/TIBHannover/semantic-glosar).
 
 A sample Climate Change Terms glossary has been used from the US Environmental Protection Agency,  @epa_climate_2013.
+
+
