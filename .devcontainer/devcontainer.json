@@ -12,5 +12,5 @@
 	},
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
-	}
+	},
 }
