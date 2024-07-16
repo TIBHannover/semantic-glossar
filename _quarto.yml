@@ -3,18 +3,19 @@ project:
   output-dir: docs
 
 book:
-  title: "Semantic Glossary Demo"
+  title: "Semantic Glossary"
   author: "Team OSL"
-  date: "2024-07-10"
+  date: "2024-07-16"
   chapters:
     - index.qmd
     - cosite001.ipynb
-    - ipcc-wip.ipynb
-    - epa.ipynb
+    # - ipcc-wip.ipynb
+    # - epa.ipynb
     - resources/cct.qmd
     - glossaries.qmd
+    - imprint.qmd
+    - contributors.qmd 
     - references.qmd
-    - copy-lic.qmd
   repo-url: https://github.com/TIBHannover/semantic-glosar
   repo-actions: [edit]
   downloads: [pdf,docx,epub]
@@ -31,7 +32,7 @@ format:
     theme: cosmo
   pdf:
     number-sections: false
-    toc-depth: 1
+    toc-depth: 2
     documentclass: book
   docx: 
     toc: true

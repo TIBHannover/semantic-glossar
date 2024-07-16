@@ -1,8 +1,8 @@
-# Glossaries (used in the demo)
+# Glossaries 
 
-## Co-Site (demo) - Submission form
+## Co-Site - Submission form
 
-## IPCC Glossary (work in progress)
+Demonstration of the use of a form input and editing for glossary maintenance and storage as a linked open data source.
 
 ## Climate Change Terms: EPA
 

@@ -1,5 +1,0 @@
-# Introduction
-
-This is a book created from markdown and executable code.
-
-See @epa_climate_2013 for additional discussion of literate programming.

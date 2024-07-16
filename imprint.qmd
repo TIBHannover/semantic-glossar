@@ -1,10 +1,12 @@
-# Copyright and licencing
+# Imprint
+
+## Copyright and licencing
 
 Content - © 2024 The authors. Creative Commons Attribution-ShareAlike 4.0 [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Code - © 2024 The authors. MIT License https://github.com/TIBHannover/semantic-glosar/blob/master/LICENSE | Source https://github.com/TIBHannover/semantic-glosar
 
-Data - All data and data sets produced would be CC 0, Public Domain, https://creativecommons.org/publicdomain/zero/1.0/
+Data - All data and data sets produced would be [CC 0](https://creativecommons.org/publicdomain/zero/1.0/), Public Domain.
 
 All fonts and graphics and media production software used on the production would be OSI compliant.
 

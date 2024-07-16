@@ -8,6 +8,7 @@ authors:
   given-names: "Kolja"
 - family-names: "Rahr"
   given-names: "Anna"
+  orcid: "https://orcid.org/0009-0008-4458-8228"
 title: "Semantic Glosar"
 version: 0.0.1a
 identifiers:
