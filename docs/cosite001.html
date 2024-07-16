@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Semantic Glossary Demo - Co-Site Demo</title>
+<title>Co-Site Demo – Semantic Glossary</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ipcc-wip.html" rel="next">
+<link href="./resources/cct.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,12 +62,18 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 </head>
@@ -72,13 +84,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cosite001.html"><span class="chapter-title">Co-Site Demo</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cosite001.html"><span class="chapter-title">Co-Site Demo</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -87,30 +99,30 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Semantic Glossary Demo</a> 
+      <a href="./">Semantic Glossary</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/TIBHannover/semantic-glosar" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/TIBHannover/semantic-glosar" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
-      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Semantic-Glossary-Demo.pdf">
-              <i class="bi bi-bi-file-pdf pe-1"></i>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Semantic-Glossary.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Semantic-Glossary-Demo.docx">
-              <i class="bi bi-bi-file-word pe-1"></i>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Semantic-Glossary.docx">
+              <i class="bi bi-file-word pe-1"></i>
             Download Docx
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Semantic-Glossary-Demo.epub">
-              <i class="bi bi-bi-journal pe-1"></i>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Semantic-Glossary.epub">
+              <i class="bi bi-journal pe-1"></i>
             Download ePub
             </a>
           </li>
@@ -139,22 +151,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ipcc-wip.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IPCC WIP</span></a>
+  <a href="./resources/cct.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Climate Change Terms: EPA</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./epa.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Climate Change Terms - EPA</span></a>
+  <a href="./glossaries.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Glossaries</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources/cct.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Climate Change Terms (EPA) as Markdown</span></a>
+  <a href="./imprint.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Imprint</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossaries.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Glossaries (used in the demo)</span></a>
+  <a href="./contributors.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contributors</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -163,17 +175,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">References</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./copy-lic.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Copyright and licencing</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
@@ -194,7 +201,723 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
+
+<table border="1">
+<tbody><tr>
+<th>
+ID
+</th>
+<th>
+Term
+</th>
+<th>
+Definition
+</th>
+<th>
+SubCategory Of
+</th>
+</tr>
+<tr>
+<td>
+Item:Q10
+</td>
+<td>
+more likely than not
+</td>
+<td>
+<blockquote class="blockquote">
+50–100% probability (Indicates the assessed likelihood of an outcome or a result)
+</blockquote></td>
+<td>
+qualifiers
+</td>
+</tr>
+<tr>
+<td>
+Item:Q100
+</td>
+<td>
+biochemical oxygen demand
+</td>
+<td>
+The amount of oxygen required to decompose organic material in water, an indicator of water quality.
+</td>
+<td>
+terms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1000
+</td>
+<td>
+AQ
+</td>
+<td>
+air quality
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1001
+</td>
+<td>
+AR4
+</td>
+<td>
+Fourth Assessment Report of the Intergovernmental Panel on Climate Change
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1002
+</td>
+<td>
+AR5
+</td>
+<td>
+Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1003
+</td>
+<td>
+AR6
+</td>
+<td>
+Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1004
+</td>
+<td>
+AR7
+</td>
+<td>
+Seventh Assessment Cycle of the Intergovernmental Panel on Climate Change
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1005
+</td>
+<td>
+ARA
+</td>
+<td>
+Arab Region of Asia
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1006
+</td>
+<td>
+ARC
+</td>
+<td>
+African Risk Capacity
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1007
+</td>
+<td>
+ARO
+</td>
+<td>
+Arctic Ocean
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1008
+</td>
+<td>
+ARP
+</td>
+<td>
+Arabian Peninsula
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1009
+</td>
+<td>
+ARPA-E
+</td>
+<td>
+Advanced Research Projects Agency-Energy
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q101
+</td>
+<td>
+biodiversity
+</td>
+<td>
+The variety of life forms within an ecosystem, encompassing genetic, species, and ecosystem diversity.
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1010
+</td>
+<td>
+ARS
+</td>
+<td>
+Arabian Sea
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1011
+</td>
+<td>
+Art.
+</td>
+<td>
+Article (e.g., of the UNFCCC),
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1012
+</td>
+<td>
+ASAP
+</td>
+<td>
+Adaptation for Smallholder Agriculture Programme
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1013
+</td>
+<td>
+ASBEC
+</td>
+<td>
+Australian Sustainable Built Environment Council
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1014
+</td>
+<td>
+ASCM
+</td>
+<td>
+Agreement on Subsidies and Countervailing Measures
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1015
+</td>
+<td>
+ASE
+</td>
+<td>
+Amundsen Sea Embayment
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1016
+</td>
+<td>
+ASEAN
+</td>
+<td>
+Association of Southeast Asian Nations
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1017
+</td>
+<td>
+ASFI
+</td>
+<td>
+Australian Sustainable Finance Initiative
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1018
+</td>
+<td>
+ASI
+</td>
+<td>
+Avoid-Shift-Improve
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1019
+</td>
+<td>
+ASK
+</td>
+<td>
+available seat kilometres
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q102
+</td>
+<td>
+biodiversity hotspots
+</td>
+<td>
+Regions with exceptionally high levels of biodiversity that are under threat from human activities.
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1020
+</td>
+<td>
+ASP
+</td>
+<td>
+Adaptive Social Protection
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1021
+</td>
+<td>
+ATLAS
+</td>
+<td>
+Adaptation Thought Leadership and Assessments
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1022
+</td>
+<td>
+AUC
+</td>
+<td>
+Area under the Curve
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1023
+</td>
+<td>
+AUM
+</td>
+<td>
+assets under management
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1024
+</td>
+<td>
+AUP
+</td>
+<td>
+Auckland Unitary Plan
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1025
+</td>
+<td>
+AUS
+</td>
+<td>
+Australasia
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1026
+</td>
+<td>
+AusMCM
+</td>
+<td>
+Australian–Maritime Continent monsoon
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1027
+</td>
+<td>
+AVHRR
+</td>
+<td>
+Advanced Very High Resolution Radiometer
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1028
+</td>
+<td>
+AZM
+</td>
+<td>
+Atlantic Zonal Modes
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1029
+</td>
+<td>
+BAT
+</td>
+<td>
+best available technology
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q103
+</td>
+<td>
+bioenergy
+</td>
+<td>
+Energy derived from biological sources, such as plants, which can be used as a renewable fuel.
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1030
+</td>
+<td>
+BAU
+</td>
+<td>
+Business-as-Usual
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1031
+</td>
+<td>
+BC
+</td>
+<td>
+black carbon
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1032
+</td>
+<td>
+BCA
+</td>
+<td>
+border carbon adjustment
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1033
+</td>
+<td>
+BCE
+</td>
+<td>
+Before the Common Era
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1034
+</td>
+<td>
+BCP
+</td>
+<td>
+biological carbon pump
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1035
+</td>
+<td>
+BDP
+</td>
+<td>
+The Bangladesh Delta Plan
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1036
+</td>
+<td>
+BECCS
+</td>
+<td>
+Bioenergy with Carbon Dioxide Capture and Storage
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1037
+</td>
+<td>
+BEES
+</td>
+<td>
+building energy efficiency standards
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1038
+</td>
+<td>
+BEMS
+</td>
+<td>
+building energy management systems
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1039
+</td>
+<td>
+BEV
+</td>
+<td>
+battery electric vehicle
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q104
+</td>
+<td>
+bioenergy with carbon dioxide capture and storage
+</td>
+<td>
+A technology that combines bioenergy production with the capture and storage of carbon dioxide emissions.
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1040
+</td>
+<td>
+BF-BOF
+</td>
+<td>
+blast furnace-basic oxygen furnace
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1041
+</td>
+<td>
+BFV
+</td>
+<td>
+Barmah Forest Virus
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1042
+</td>
+<td>
+BIM
+</td>
+<td>
+Building Information Modelling
+</td>
+<td>
+acronyms
+</td>
+</tr>
+<tr>
+<td>
+Item:Q1043
+</td>
+<td>
+BIPV
+</td>
+<td>
+building-integrated photovoltaic
+</td>
+<td>
+acronyms
+</td>
+</tr>
+</tbody></table>
 
 
 
@@ -235,18 +958,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -278,11 +990,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -292,8 +1043,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -305,7 +1065,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -349,6 +1232,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -374,6 +1258,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -435,13 +1345,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
+      <a href="./index.html" class="pagination-link" aria-label="About">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ipcc-wip.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">IPCC WIP</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./resources/cct.html" class="pagination-link" aria-label="Climate Change Terms: EPA">
+        <span class="nav-page-text"><span class="chapter-title">Climate Change Terms: EPA</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -449,4 +1359,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/TIBHannover/semantic-glosar/blob/main/cosite001.ipynb" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.dev/TIBHannover/semantic-glosar/blob/main/cosite001.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
