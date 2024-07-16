@@ -58,8 +58,8 @@ format:
       - "_titlepage.tex" 
       - "before-body.tex"
     title-bg-image: "cover/cover.png"
-    title-bg-location: "UL"
-    title-bg-size: 1.00
+    title-bg-location: "LR"
+    title-bg-size: 0.30
   
   docx: 
     toc: true
