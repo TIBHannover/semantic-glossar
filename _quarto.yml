@@ -21,13 +21,9 @@ book:
   downloads: [pdf,docx,epub]
   cover-image: cover/cover.png 
   page-footer: 
-    center: "[TIB website](https://www.tib.eu/de/)"
-    # right: 
-    #  - icon: github
-    #    href: https://github.com/
-    #left:
-    #  - icon: twitter 
-    #    href: https://twitter.com/ 
+    center: "[NextGen Books / CPS](https://projects.tib.eu/nextgen-books/)"
+    right: "[Impressum](https://projects.tib.eu/nextgen-books/impressum/)"  
+    left: "[Datenschutz](https://projects.tib.eu/nextgen-books/datenschutz/)" 
 
 comments:
   hypothesis: true
@@ -58,7 +54,7 @@ format:
       - "_titlepage.tex" 
       - "before-body.tex"
     title-bg-image: "cover/cover.png"
-    title-bg-location: "LR"
+    title-bg-location: "center"
     title-bg-size: 0.30
   
   docx: 
