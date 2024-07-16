@@ -54,7 +54,7 @@ format:
       - "_titlepage.tex" 
       - "before-body.tex"
     title-bg-image: "cover/cover.png"
-    title-bg-location: "center"
+    title-bg-location: "LR"
     title-bg-size: 0.30
   
   docx: 
