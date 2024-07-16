@@ -1,0 +1,20 @@
+$if(has-frontmatter)$
+  \begin{frontmatter}
+  \begin{titlepage}
+  $_titlepage.tex()$
+  
+  \end{titlepage}
+  \end{frontmatter}
+$else$
+  \begin{titlepage}
+  $_titlepage.tex()$
+  \end{titlepage}
+$endif$
+
+{\let\newpage\relax}
+
+
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+  commandchars=\\\{\},
+  breaklines, breaknonspaceingroup, breakanywhere
+}
