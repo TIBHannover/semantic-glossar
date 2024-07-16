@@ -4,13 +4,14 @@ authors:
 - family-names: "Worthington"
   given-names: "Simon"
   orcid: "https://orcid.org/0000-0002-8579-9717"
-- family-names: "Bowie"
-  given-names: "Simon"
-  orcid: "https://orcid.org/0000-0002-2437-589X"
-title: "Computational Publishing Service Demo"
+- family-names: "Bailly"
+  given-names: "Kolja"
+- family-names: "Rahr"
+  given-names: "Anna"
+title: "Semantic Glosar"
 version: 0.0.1a
 identifiers:
   - type: doi
     value: 
-date-released: 2024-03-22
-url: "https://github.com/NFDI4Culture/CPS-Demo"
+date-released: 2024-07-16
+url: "https://github.com/TIBHannover/semantic-glosar"
