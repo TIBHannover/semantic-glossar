@@ -1,32 +1,25 @@
 project:
   type: book
   output-dir: docs
-  
+
 book:
-  title: "Semantic Glossary Demo"
+  title: "Semantic Glossary"
   author: "Team OSL"
-  date: "2024-07-10"
+  date: "2024-07-16"
   chapters:
     - index.qmd
     - cosite001.ipynb
-    - ipcc-wip.ipynb
-    - epa.ipynb
+    # - ipcc-wip.ipynb
+    # - epa.ipynb
     - resources/cct.qmd
     - glossaries.qmd
+    - imprint.qmd
+    - contributors.qmd 
     - references.qmd
-    - copy-lic.qmd
   repo-url: https://github.com/TIBHannover/semantic-glosar
   repo-actions: [edit]
   downloads: [pdf,docx,epub]
   cover-image: cover/cover.png 
-  page-footer: 
-    center: "[TIB website](https://www.tib.eu/de/)"
-    # right: 
-    #  - icon: github
-    #    href: https://github.com/
-    #left:
-    #  - icon: twitter 
-    #    href: https://twitter.com/ 
 
 comments:
   hypothesis: true
@@ -37,36 +30,13 @@ format:
   html:
     number-sections: false
     theme: cosmo
-
   pdf:
     number-sections: false
-    toc-depth: 1
+    toc-depth: 2
     documentclass: book
-    include-in-header: "in-header.tex"
-    pagestyle: plain # page numbers
-    geometry: # margins
-      - top=35mm
-      - right=25mm
-      - bottom=35mm
-      - left=25mm
-      - heightrounded
-    classoption: openany 
-    fontsize: 12pt
-    papersize: a4
-    urlcolor: cosmoblue
-    template-partials:
-      - "_titlepage.tex" 
-      - "before-body.tex"
-    title-bg-image: "cover/cover.png"
-    title-bg-location: "UL"
-    title-bg-size: 1.00
-
   docx: 
     toc: true
-
   epub:
     toc: true 
-    toc-depth: 1
-    number-sections: false
-    css: cosmoepub.css
-    code-overflow: wrap
+
+
