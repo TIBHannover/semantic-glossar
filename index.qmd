@@ -4,7 +4,7 @@ This is a work in progress demonstration of a workflow for glossary authoring, l
 
 More information about the workflow development can be found [here](https://github.com/TIBHannover/semantic-glosar).
 
-An 'work in progress' example [semantic glossary](cosite001.ipynb) is included. This demonstration is of a glossary managed using linked open data storage. 
+A 'work in progress' example [semantic glossary](cosite001.ipynb) is included. This demonstration is of a glossary managed using linked open data storage. 
 
 As a benchmark the [Climate Change Terms](resources/cct.qmd) glossary has been used from the US Environmental Protection Agency,  @epa_climate_2013. The EPA use a [terminology service and good guidance](https://www.epa.gov/web-policies-and-procedures/web-standard-glossaries) to generate and store their web glossaries.
 
