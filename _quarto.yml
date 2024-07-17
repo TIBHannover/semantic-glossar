@@ -54,8 +54,11 @@ format:
       - "_titlepage.tex" 
       - "before-body.tex"
     title-bg-image: "cover/cover.png"
-    title-bg-location: "LR"
-    title-bg-size: 0.30
+    title-bg-location: "" # UL, UR, LR, LL, leave empty for centered
+    title-bg-size: 0.50
+    title-boxcolor: gray!15!black
+    title-boxfontcolor: white
+
   
   docx: 
     toc: true
