@@ -5,22 +5,22 @@
 
 \tcbset{ % parameters for text background 
     frame code={},
-    left=0pt, % margins
-    right=0pt,
+    left=5pt, % margins
+    right=5pt,
     top=0pt,
     bottom=0pt,
-    colback=gray!10!black, % box color
+    colback=$title-boxcolor$, % box color
     width=\dimexpr\textwidth\relax, 
     boxsep=15pt, % spacing between boxes
     arc=0pt, % no rounded edges
     opacityback=0.35, % translucent-ish background
-    fontupper=\color{white}, % fontcolor
-    fontlower=\color{white}
+    fontupper=\color{$title-boxfontcolor$}, % fontcolor
+    fontlower=\color{$title-boxfontcolor$}
     }
 
 % background image
 $if(title-bg-image)$
-  \This$if(title-bg-location)$$title-bg-location$$else$UL$endif$CornerWallPaper{$if(title-bg-size)$$title-bg-size$$else$0.5$endif$}{$title-bg-image$}
+  \This$if(title-bg-location)$$title-bg-location$CornerWallPaper$else$CenterWallPaper$endif${$if(title-bg-size)$$title-bg-size$$else$0.5$endif$}{$title-bg-image$}
 $endif$
 
 \begin{tcolorbox}
@@ -45,6 +45,7 @@ $endif$
 \begin{tcolorbox}
 
 $if(by-author/allbutlast)$
+  \noindent\ignorespaces%
   $for(by-author/allbutlast)$
     {\large{$by-author.name.literal$}}$for(by-author.affiliations)${\textsuperscript{$it.number$}}$sep$\textsuperscript{,}$endfor$%
   $if(by-author.email)$%
@@ -63,6 +64,7 @@ $if(by-author/allbutlast)$
   $endif$%
   $endfor$
   $else$
+  \noindent\ignorespaces%
   $for(by-author/last)$%
     {\large{$by-author.name.literal$}}%
     $for(by-author.affiliations)$%
@@ -74,6 +76,7 @@ $endif$%
 $endfor$
 $endif$
 
+$if(by-affiliation)$
 %%%%%% Affiliations
 \vspace{2\baselineskip} 
 
@@ -101,6 +104,7 @@ $if(by-author.email)$
 $endif$
 $endfor$
 
+$endif$
 \end{tcolorbox}
 
 $if(abstract)$
