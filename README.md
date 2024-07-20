@@ -22,6 +22,10 @@ FAIR principles applied https://www.go-fair.org/fair-principles/
 
 All third party content and code is the copyright of the authors and under their respective OSI compliant open licenses for code and compliant with Creative Commons Attribution-ShareAlike 4.0 International for content.
 
+## Project task tracking and issues
+
+Project tasks: https://github.com/orgs/TIBHannover/projects/6/views/2
+
 ## Technology schematic
 
 ![Glossary Workflows](/images/glossary-workflows.jpg)
