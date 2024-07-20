@@ -21,3 +21,8 @@ All fonts and graphics and media production software used on the production woul
 FAIR principles applied https://www.go-fair.org/fair-principles/
 
 All third party content and code is the copyright of the authors and under their respective OSI compliant open licenses for code and compliant with Creative Commons Attribution-ShareAlike 4.0 International for content.
+
+## Technology schematic
+
+![Glossary Workflows](/images/glossary-workflows.jpg)
+
