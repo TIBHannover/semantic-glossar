@@ -66,6 +66,9 @@ format:
   docx: 
     toc: true
     reference-doc: "thkoeln_template.docx"
+    number-sections: false
+    toc-depth: 1
+
   epub:
     toc: true 
     toc-depth: 1
