@@ -1,19 +1,19 @@
-# Glossaries 
+# Glossare 
 
-## Co-Site - Submission form
+## Co-Site - Eingabeformular
 
-Demonstration of the use of a form input and editing for glossary maintenance and storage as a linked open data source.
+Demonstration der Verwendung eines Eingabe- und Bearbeitungsformulars für die Pflege und Speicherung von Glossaren als Linked Open Data.
 
-## Climate Change Terms: EPA
+## Begriffe zum Klimawandel: EPA
 
-Name: Glossary of Climate Change Terms
+Name: Glossar der Begriffe zum Klimawandel
 
-Description: Glossary of terms used on EPA's climate change site.
+Beschreibung: Glossar der auf der EPA-Website zum Klimawandel verwendeten Begriffe.
 
-Publishing Organization: Office of Air and Radiation/Office of Atmospheric Protection/Climate Change Division
+Veröffentlichende Organisation: Office of Air and Radiation/Office of Atmospheric Protection/Climate Change Division
 
-Last Update: September 9, 2013
+Letzte Aktualisierung: 9. September 2013
 
-Program Site: [https://www.epa.gov/climate-research](https://www.epa.gov/climate-research)
+Programm-Website: [https://www.epa.gov/climate-research](https://www.epa.gov/climate-research)
 
-Terminology Service: [Link](https://sor.epa.gov/sor_internet/registry/termreg/searchandretrieve/glossariesandkeywordlists/search.do?details=&vocabName=Glossary%20Climate%20Change%20Terms)
+Terminologieservice: [Link](https://sor.epa.gov/sor_internet/registry/termreg/searchandretrieve/glossariesandkeywordlists/search.do?details=&vocabName=Glossary%20Climate%20Change%20Terms)

@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "Semantic Glossary"
-  author: "Team OSL"
+  title: "Semantic Glossar"
+  author: "Team Co-Site"
   date: "2024-07-16"
   chapters:
     - index.qmd
@@ -35,7 +35,9 @@ format:
     number-sections: false
     theme: 'lux'
     css: 'thkoelnepub.css'
+    lang: de
   pdf:
+    lang: de
     number-sections: false
     toc-depth: 2
     documentclass: book
