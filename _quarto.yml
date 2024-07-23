@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 book:
-  title: "Semantic Glossary"
-  author: "Team OSL"
-  date: "2024-07-16"
+  title: "Semantic Glosar"
+  author: "Team Co-Site"
+  date: "2024-07-23"
   chapters:
     - index.qmd
     - cosite001.ipynb
