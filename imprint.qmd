@@ -1,15 +1,15 @@
-# Imprint
+# Impressum
 
-## Copyright and licencing
+## Urheberrecht und Lizensierung
 
-Content - © 2024 The authors. Creative Commons Attribution-ShareAlike 4.0 [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+Inhalt - © 2024 Die Autor:innen. Attribution-ShareAlike 4.0 International [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Code - © 2024 The authors. MIT License https://github.com/TIBHannover/semantic-glosar/blob/master/LICENSE | Source https://github.com/TIBHannover/semantic-glosar
+Code - © 2024 Die Autor:innen. MIT-Lizenz https://github.com/TIBHannover/semantic-glosar/blob/master/LICENSE | Quelle https://github.com/TIBHannover/semantic-glosar
 
-Data - All data and data sets produced would be [CC 0](https://creativecommons.org/publicdomain/zero/1.0/), Public Domain.
+Daten - Alle produzierten Daten und Datensätze sind [CC 0](https://creativecommons.org/publicdomain/zero/1.0/), Public Domain.
 
-All fonts and graphics and media production software used on the production would be OSI compliant.
+Alle Schriftarten, Grafiken und Medienproduktionssoftware, die für die Produktion verwendet werden, sind OSI-konform.
 
-FAIR principles applied https://www.go-fair.org/fair-principles/
+FAIR-Grundsätze angewandt https://www.go-fair.org/fair-principles/
 
-All third party content and code is the copyright of the authors and under their respective OSI compliant open licenses for code and compliant with Creative Commons Attribution-ShareAlike 4.0 International for content.
+Alle Inhalte und Codes von Dritten unterliegen dem Urheberrecht der Autor:innen und ihren jeweiligen OSI-konformen offenen Lizenzen für den Code und der Creative Commons Attribution-ShareAlike 4.0 International für den Inhalt.
