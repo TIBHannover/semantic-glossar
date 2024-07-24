@@ -4,12 +4,12 @@
 
 Inhalt - © 2024 Die Autor:innen. Attribution-ShareAlike 4.0 International [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Code - © 2024 Die Autor:innen. MIT-Lizenz https://github.com/TIBHannover/semantic-glosar/blob/master/LICENSE | Quelle https://github.com/TIBHannover/semantic-glosar
+Code - © 2024 Die Autor:innen. MIT-Lizenz [https://github.com/TIBHannover/semantic-glosar/blob/master/LICENSE](https://github.com/TIBHannover/semantic-glosar/blob/master/LICENSE) | Quelle [https://github.com/TIBHannover/semantic-glosar](https://github.com/TIBHannover/semantic-glosar)
 
 Daten - Alle produzierten Daten und Datensätze sind [CC 0](https://creativecommons.org/publicdomain/zero/1.0/), Public Domain.
 
 Alle Schriftarten, Grafiken und Medienproduktionssoftware, die für die Produktion verwendet werden, sind OSI-konform.
 
-FAIR-Grundsätze angewandt https://www.go-fair.org/fair-principles/
+FAIR-Grundsätze angewandt [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
 Alle Inhalte und Codes von Dritten unterliegen dem Urheberrecht der Autor:innen und ihren jeweiligen OSI-konformen offenen Lizenzen für den Code und der Creative Commons Attribution-ShareAlike 4.0 International für den Inhalt.

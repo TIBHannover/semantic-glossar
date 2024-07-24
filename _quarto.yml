@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "Semantic Glossar"
+  title: "Co-Site Glossar"
   author: "Team Co-Site"
   date: "2024-07-16"
   chapters:
@@ -39,7 +39,7 @@ format:
   pdf:
     lang: de
     number-sections: false
-    toc-depth: 2
+    toc-depth: 3
     documentclass: book
     include-in-header: "in-header.tex"
     pagestyle: plain # page numbers
@@ -69,11 +69,11 @@ format:
     toc: true
     reference-doc: "thkoeln_template.docx"
     number-sections: false
-    toc-depth: 1
+    toc-depth: 3
 
   epub:
     toc: true 
-    toc-depth: 1
+    toc-depth: 3
     number-sections: false
     css: "thkoelnepub.css"
     code-overflow: wrap
