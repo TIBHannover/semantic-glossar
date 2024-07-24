@@ -65,8 +65,6 @@ h1 {
   color: inherit;
   text-transform: none;
   letter-spacing: normal;
-
-
 }
 
 h2, h3, h4, h5, h6 {
@@ -77,16 +75,15 @@ h2, h3, h4, h5, h6 {
   color: inherit;
   text-transform: none;
   letter-spacing: normal;
-
-
 }
 
 h1 { font-size: 2.125rem }
 h2 { font-size: 1.25rem; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.25rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1.0rem; }
+
+h3, h4, h5, h6 {
+  font-size: 1.0rem;
+  font-weight: bold;
+  }
 
 /* Paragraphs */
 p {
