@@ -1,10 +1,10 @@
-# Quick Start User Guide
+# Quick Start Guide (one pager)
 
-## One pager (printed handout)
 
 ### ToC
 
-1. Overview (end-to-end): Likely a diagram
+A. Overview (end-to-end): Likely a diagram
+
 2. Create term
 3. Lookup term
 4. Edit term
