@@ -47,5 +47,13 @@
 \titlespacing*{\subsection}{0pt}{1em}{0.1em}
 
 
+% Define a new command to apply single spacing to bold text
+\let\oldtextbf\textbf
+\renewcommand{\textbf}[1]{%
+  \setstretch{1.0}% Set line spacing to single
+  \parskip=10pt % Set paragraph spacing (adjust as needed)
+  \oldtextbf{#1}%
+  \parskip=0pt % Reset paragraph spacing to default after bold text
+}
 
 \arrayrulecolor{thkoelnviolet} % table color
