@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 @font-face {
   font-family: 'Myriad Pro SemiCond';
   src: local('MyriadPro-BoldSemiCnIt'),
@@ -48,7 +50,7 @@ body {
   font-family: "Myriad Pro SemiCond", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #000000;
+  color: #1d1d1d;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
@@ -65,8 +67,6 @@ h1 {
   color: inherit;
   text-transform: none;
   letter-spacing: normal;
-
-
 }
 
 h2, h3, h4, h5, h6 {
@@ -77,16 +77,15 @@ h2, h3, h4, h5, h6 {
   color: inherit;
   text-transform: none;
   letter-spacing: normal;
-
-
 }
 
 h1 { font-size: 2.125rem }
-h2 { font-size: 1.25rem; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.25rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1.0rem; }
+h2 { font-size: 1.6rem; }
+
+h3, h4, h5, h6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
 
 /* Paragraphs */
 p {
@@ -124,10 +123,10 @@ blockquote {
 
 /* Tables */
 table {
-  width: 100%;
   border: 1.5px solid #ffffff;
   /*border-collapse:collapse;*/
   margin-bottom: 1rem;
+  width: 95% !important;
 }
 
 th, td {
@@ -144,10 +143,15 @@ thead th {
   /*border-bottom: 2px solid #000000;*/
 }
 
+
+
 tr:nth-child(odd){background-color: #f2f2f2b6}
 tr:nth-child(1){border-bottom: 1.5px solid #c81e0f}
 td:nth-child(odd){border-bottom: 1.5px solid #ea5a00}
 td:nth-child(even){border-bottom: 1.5px solid #b43092}
+
+
+
 
 /* Code */
 pre,
@@ -182,6 +186,8 @@ a > code {
   color: inherit;
 }
 
+
+
 /* Images */
 img {
   max-width: 100%;
@@ -215,4 +221,6 @@ button:hover {
 }
 
 
-
+.margin-sidebar {
+  margin-left: 25px;
+}

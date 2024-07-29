@@ -16,7 +16,7 @@ book:
     - imprint.qmd
     - contributors.qmd 
     - references.qmd
-  repo-url: https://github.com/TIBHannover/semantic-glosar
+  repo-url: https://github.com/TIBHannover/semantic-glossar
   repo-actions: [edit]
   downloads: [pdf,docx,epub]
   cover-image: cover/thkoeln_cover.png 
