@@ -2,7 +2,7 @@
 
 Dies ist eine laufende Demonstration eines Workflows für die Erstellung von Glossaren, die Speicherung von Linked Open Data, die Ausgabe in mehreren Formaten und die Verwendung von Glossaren für die Datenanalyse - zum Beispiel für die Suche in Open-Literature-Beständen.
 
-Weitere Informationen über die Entwicklung des Workflows finden Sie [hier](https://github.com/TIBHannover/semantic-glosar).
+Weitere Informationen über die Entwicklung des Workflows finden Sie [hier](https://github.com/TIBHannover/semantic-glossar).
 
 Ein in Bearbeitung befindliches Beispiel [(semantisches Glossar)](cosite001.ipynb) ist ebenfalls enthalten. Bei dieser Demonstration handelt es sich um ein Glossar, das mit Hilfe einer verknüpften offenen Datenspeicherung verwaltet wird. 
 
