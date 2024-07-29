@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "Co-Site Glossar"
-  author: "Team Co-Site"
+  title: "Semantic Glossar"
+  author: "Team NextGen Books"
   date: "2024-07-16"
   chapters:
     - index.qmd
@@ -19,7 +19,7 @@ book:
   repo-url: https://github.com/TIBHannover/semantic-glossar
   repo-actions: [edit]
   downloads: [pdf,docx,epub]
-  cover-image: cover/thkoeln_cover.png 
+  cover-image: cover/cover.png 
   page-footer: 
     center: "[NextGen Books / CPS](https://projects.tib.eu/nextgen-books/)"
     right: "[Impressum](https://projects.tib.eu/nextgen-books/impressum/)"  

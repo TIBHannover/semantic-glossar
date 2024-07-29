@@ -12,7 +12,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Co-Site Glossar",
+    "title": "Semantic Glossar",
     "section": "",
     "text": "Über dieses Projekt\nDies ist eine laufende Demonstration eines Workflows für die Erstellung von Glossaren, die Speicherung von Linked Open Data, die Ausgabe in mehreren Formaten und die Verwendung von Glossaren für die Datenanalyse - zum Beispiel für die Suche in Open-Literature-Beständen.\nWeitere Informationen über die Entwicklung des Workflows finden Sie hier.\nEin in Bearbeitung befindliches Beispiel (semantisches Glossar) ist ebenfalls enthalten. Bei dieser Demonstration handelt es sich um ein Glossar, das mit Hilfe einer verknüpften offenen Datenspeicherung verwaltet wird.\nAls Maßstab wurde das Glossar Climate Change Terms der US Environmental Protection Agency, EPA (2013), verwendet. Die EPA verwendet einen Terminologieservice und Leitfaden zur Erstellung und Speicherung ihrer Webglossare.\n\n\n\n\nEPA, OEI. 2013. „Climate Change Terms“. https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/glossariesandkeywordlists/search.do?details=&vocabName=Glossary%20Climate%20Change%20Terms.",
     "crumbs": [
