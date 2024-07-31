@@ -6,6 +6,7 @@ https://write.handbuch.io/document/855
 
 https://github.com/TIBHannover/semantic-glosar/issues/17
 
+## Mediawiki web design and styling 
 
 
 
