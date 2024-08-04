@@ -1,4 +1,4 @@
-# Semantic Glossary Demo
+# Semantic Glossar
 
 Run locally or in GitHub Codespace VM.
 
