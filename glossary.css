@@ -1,0 +1,28 @@
+
+[class$="-label"]{
+  font-weight: bold;
+}
+
+[class$="-label"]::after{
+  content: ":";
+}
+
+[class$="-label"]::before{
+  content:"\a";
+  white-space: pre;
+}
+
+p {
+  display: inline;
+}
+
+.gloss-term-all {
+  color: #1d1d1d !important;
+  line-height: 2rem;
+  display: inline; 
+}
+
+.gloss-cl-definition-label::after {
+  content:":\a";
+  white-space: pre;
+}

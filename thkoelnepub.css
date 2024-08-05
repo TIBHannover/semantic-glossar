@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+  font-family: 'Myriad Pro SemiCond';
+  src: local('MyriadPro-BoldSemiCnIt'),
+      url('fonts/MyriadPro-BoldSemiCnIt.woff2') format('woff2'),
+      url('../fonts/MyriadPro-BoldSemiCnIt.otf') format('otf');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro SemiCond';
+  src: local('MyriadPro-BoldSemiCn'),
+      url('fonts/MyriadPro-BoldSemiCn.woff2') format('woff2'),
+      url('../fonts/MyriadPro-BoldSemiCn.otf') format('otf');
+      font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro SemiCond';
+  src: local('MyriadPro-SemiCnIt'),
+      url('fonts/MyriadPro-SemiCnIt.woff2') format('woff2'),
+      url('../fonts/MyriadPro-SemiCnIt.otf') format('otf');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro SemiCond';
+  src: local('MyriadPro-SemiCn'),
+      url('fonts/MyriadPro-SemiCn.woff2') format('woff2'),
+      url('../fonts/MyriadPro-SemiCn.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Basic Styles */
+body {
+  text-align: left; 
+  font-family: "Myriad Pro SemiCond", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1d1d1d;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+/* Headings */
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: inherit;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: inherit;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+h1 { font-size: 2.125rem }
+h2 { font-size: 1.6rem; }
+
+h3, h4, h5, h6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-bottom: 0;
+}
+
+/* Links */
+a {
+  color: #000000;
+
+}
+a:hover {
+  color: #c81e0f;
+}
+
+/* Blockquote */
+blockquote {
+  margin: 0 0 1rem;
+  padding: 0.5rem 1rem;
+  border-left: 0.5rem solid #c81e0f;
+  background-color: #f8f9fa;
+}
+
+/* Tables */
+table {
+  border: 1.5px solid #ffffff;
+  /*border-collapse:collapse;*/
+  margin-bottom: 1rem;
+  width: 95% !important;
+}
+
+th, td {
+  text-transform: none;
+  padding: 0.2rem;
+  /*border: 1px solid #000000;*/
+  word-wrap: break-word;
+  align-content: center;
+  height: 100%
+}
+
+thead th {
+  vertical-align: bottom;
+  /*border-bottom: 2px solid #000000;*/
+}
+
+
+
+tr:nth-child(odd){background-color: #f2f2f2b6}
+tr:nth-child(1){border-bottom: 1.5px solid #c81e0f}
+td:nth-child(odd){border-bottom: 1.5px solid #ea5a00}
+td:nth-child(even){border-bottom: 1.5px solid #b43092}
+
+
+
+
+/* Code */
+pre,
+code {
+  font-family: "Consolas", monospace;
+  font-size: 1em;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: 0.875em;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: break-word;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;
+}
+
+code {
+  font-size: 0.875em;
+  word-wrap: break-word;
+  overflow-wrap: break-word
+}
+a > code {
+  color: inherit;
+}
+
+
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Forms */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border-radius: 0.375rem;
+  background-color: #c81e0f;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  border: 2px;
+}
+
+button:hover {
+  background-color: #ea5a00;
+}
+
+/* Utilities */
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+.margin-sidebar {
+  margin-left: 25px;
+}

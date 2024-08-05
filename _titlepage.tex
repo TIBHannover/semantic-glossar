@@ -3,6 +3,7 @@
 % This is a combination of Pandoc templating and LaTeX
 % Pandoc templating https://pandoc.org/MANUAL.html#templates
 
+
 \tcbset{ % parameters for text background 
     frame code={},
     left=5pt, % margins
@@ -13,7 +14,7 @@
     width=\dimexpr\textwidth\relax, 
     boxsep=15pt, % spacing between boxes
     arc=0pt, % no rounded edges
-    opacityback=0.35, % translucent-ish background
+    opacityback=$title-boxopacity$, % translucent-ish background
     fontupper=\color{$title-boxfontcolor$}, % fontcolor
     fontlower=\color{$title-boxfontcolor$}
     }
@@ -129,11 +130,12 @@ $endif$
 
 %%%%%% Tagline at bottom
 {
-  TIB\\
-  Open Science Lab
+  NextGen Book Services\\
+  Open Science Lab, TIB
 }
 \end{tcolorbox}
 
 $if(titlepage-geometry)$
   \restoregeometry
 $endif$
+

@@ -2,32 +2,58 @@
 \usepackage{graphicx} % colors 
 \usepackage{wallpaper} % for the background image on title page
 \usepackage{geometry} % for margins
-\usepackage{babel} % language support
-\usepackage[default]{sourcesanspro} % main font
+\usepackage{xcolor,colortbl} % table colors
+
+\usepackage{ragged2e} % text alignment
+
+
 \usepackage[most]{tcolorbox} % boxes behind cover page text
 \usepackage{setspace} % line spacing
 \usepackage{parskip} % paragraph spacing
 
 \usepackage{fvextra} % code hyphenation / styling
 \usepackage{fontspec} % mono font
+\usepackage[T1]{fontenc}
+
 
 
 \setmonofont{Consolas} % font for code bits
 
 
+
+\setmainfont{MyriadPro}[
+    Path=./fonts/,
+    Extension = .ttf,
+    UprightFont=*-SemiCn,
+    BoldFont=*-BoldSemiCn,
+    ItalicFont=*-SemiCnIt,
+    BoldItalicFont=*-BoldSemiCnIt
+]
+
 \onehalfspacing % line spacing
 
 \setlength{\parskip}{1.5em}
-\setlength\parindent{0pt}
+\setlength{\parindent}{0pt}
 
-\definecolor{cosmoblue}{RGB}{39,128,227} % link color
-
-\definecolor{cosmoblack}{RGB}{55,58,60} % text color
+\definecolor{cosmoblue}{RGB}{39,128,227} 
+\definecolor{thkoelnred}{RGB}{201,12,15}
+\definecolor{thkoelnorange}{RGB}{234,91,12}
+\definecolor{thkoelnviolet}{RGB}{184,37,133}
+\definecolor{cosmoblack}{RGB}{55,58,60} 
 
 \usepackage{titlesec} % title and section spacing
 % \titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
 \titlespacing*{\section}{0pt}{1em}{0.1em}
 \titlespacing*{\subsection}{0pt}{1em}{0.1em}
 
-% \titleformat*{\section}{\normalfont\Large}
-% \titleformat*{\subsection}{\normalfont\large}
+
+% Define a new command to apply single spacing to bold text
+\let\oldtextbf\textbf
+\renewcommand{\textbf}[1]{%
+  \setstretch{1.0}% Set line spacing to single
+  \parskip=10pt % Set paragraph spacing (adjust as needed)
+  \oldtextbf{#1}%
+  \parskip=0pt % Reset paragraph spacing to default after bold text
+}
+
+\arrayrulecolor{thkoelnviolet} % table color

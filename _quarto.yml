@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "Semantic Glossary"
-  author: "Team OSL"
+  title: "Semantic Glossar"
+  author: "Team NextGen Books"
   date: "2024-07-16"
   chapters:
     - index.qmd
@@ -16,7 +16,7 @@ book:
     - imprint.qmd
     - contributors.qmd 
     - references.qmd
-  repo-url: https://github.com/TIBHannover/semantic-glosar
+  repo-url: https://github.com/TIBHannover/semantic-glossar
   repo-actions: [edit]
   downloads: [pdf,docx,epub]
   cover-image: cover/cover.png 
@@ -33,10 +33,13 @@ bibliography: references.bib
 format:
   html:
     number-sections: false
-    theme: cosmo
+    theme: 'lux'
+    css: 'thkoelnepub.css'
+    lang: de
   pdf:
+    lang: de
     number-sections: false
-    toc-depth: 2
+    toc-depth: 3
     documentclass: book
     include-in-header: "in-header.tex"
     pagestyle: plain # page numbers
@@ -49,27 +52,29 @@ format:
     classoption: openany 
     fontsize: 12pt
     papersize: a4
-    urlcolor: cosmoblue
     template-partials:
       - "_titlepage.tex" 
       - "before-body.tex"
-    title-bg-image: "cover/cover.png"
+    title-bg-image: "cover/thkoeln_cover.png"
     title-bg-location: "" # UL, UR, LR, LL, leave empty for centered
-    title-bg-size: 0.50
+    title-bg-size: 0.30
     title-boxcolor: gray!15!black
-    title-boxfontcolor: white
+    title-boxopacity: 0
+    title-boxfontcolor: black
+    urlcolor: thkoelnorange 
+
 
   
   docx: 
     toc: true
+    reference-doc: "thkoeln_template.docx"
+    number-sections: false
+    toc-depth: 3
+
   epub:
     toc: true 
-    toc-depth: 1
+    toc-depth: 3
     number-sections: false
-    css: cosmoepub.css
+    css: "thkoelnepub.css"
     code-overflow: wrap
-
-
-
-
-
+    epub-fonts: ['./fonts/MyriadPro-*.otf']
