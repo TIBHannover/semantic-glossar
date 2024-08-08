@@ -9,6 +9,8 @@ book:
   chapters:
     - index.qmd
     - cosite001.ipynb
+    - ipcc.ipynb
+    - sandbox.ipynb
     # - ipcc-wip.ipynb
     # - epa.ipynb
     - resources/cct.qmd

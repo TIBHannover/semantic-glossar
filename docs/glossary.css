@@ -1,10 +1,7 @@
 
-[class$="-label"]{
+[class$="-label"], h3 {
   font-weight: bold;
-}
-
-[class$="-label"]::after{
-  content: ":";
+  line-height: 2em !important;
 }
 
 [class$="-label"]::before{
@@ -18,11 +15,7 @@ p {
 
 .gloss-term-all {
   color: #1d1d1d !important;
-  line-height: 2rem;
   display: inline; 
-}
-
-.gloss-cl-definition-label::after {
-  content:":\a";
-  white-space: pre;
+  line-height: normal;
+  word-break: break-word;
 }
