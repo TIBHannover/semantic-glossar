@@ -9,7 +9,9 @@ book:
   chapters:
     - index.qmd
     - cosite001.ipynb
-    - ipcc.ipynb
+    - ipcc-terms.ipynb
+    - ipcc-acronyms.ipynb
+    - ipcc-qualifiers.ipynb
     - sandbox.ipynb
     # - ipcc-wip.ipynb
     # - epa.ipynb
