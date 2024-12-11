@@ -3,9 +3,9 @@
 \usepackage{wallpaper} % for the background image on title page
 \usepackage{geometry} % for margins
 \usepackage{xcolor,colortbl} % table colors
+\usepackage{subcaption} % for multiple graphics
 
 \usepackage{ragged2e} % text alignment
-
 
 \usepackage[most]{tcolorbox} % boxes behind cover page text
 \usepackage{setspace} % line spacing
@@ -16,11 +16,10 @@
 \usepackage[T1]{fontenc}
 \usepackage{inconsolata}
 
-
+\usepackage[all]{nowidow} % prevent single lines of text at the beginning or end of a page
+\usepackage{soul} % For underlining
 
 \setmonofont{inconsolata} % font for code bits
-
-
 
 \setmainfont{MyriadPro}[
     Path=./fonts/,
@@ -31,9 +30,11 @@
     BoldItalicFont=*-BoldSemiCnIt
 ]
 
-\onehalfspacing % line spacing
+%\onehalfspacing % line spacing
+\setstretch{1}% Set line spacing 
 
-\setlength{\parskip}{1.5em}
+
+\setlength{\parskip}{0.25em}
 \setlength{\parindent}{0pt}
 
 \definecolor{cosmoblue}{RGB}{39,128,227} 
@@ -48,13 +49,5 @@
 \titlespacing*{\subsection}{0pt}{1em}{0.1em}
 
 
-% Define a new command to apply single spacing to bold text
-\let\oldtextbf\textbf
-\renewcommand{\textbf}[1]{%
-  \setstretch{1.0}% Set line spacing to single
-  \parskip=10pt % Set paragraph spacing (adjust as needed)
-  \oldtextbf{#1}%
-  \parskip=0pt % Reset paragraph spacing to default after bold text
-}
-
 \arrayrulecolor{thkoelnviolet} % table color
+
