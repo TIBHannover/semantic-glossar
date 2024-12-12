@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - cosite001.ipynb
+    - cosite002.ipynb
     - ipcc-terms.ipynb
     - ipcc-acronyms.ipynb
     - ipcc-qualifiers.ipynb
